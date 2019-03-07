@@ -4,9 +4,7 @@ public class Exercise11 {
         Scanner str =new Scanner (System.in);
         System.out.println("Введите строку: ");
         String s= str.nextLine();
-        String [] ss = s.split(" ");
-        for (String element: ss) {
-            System.out.print(element);
+        System.out.print("Ваша строка: " + s);
         }
     }
 }
